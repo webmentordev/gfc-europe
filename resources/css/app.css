@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Space Grotesk", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+[x-cloak]{
+    display: none !important;
+}
+
+h1, h2, h3, .span{
+    font-family: "Outfit", sans-serif;
+}
+
+.imprint h1, .imprint h2, .imprint h3{
+    @apply mb-1 font-bold;
+}
+
+.imprint h1{
+    @apply text-4xl;
+}
+
+.imprint h2{
+    @apply text-2xl;
+}
+
+.imprint h3{
+    @apply text-lg;
+}
+
+.imprint p{
+    @apply mb-3;
+}
